@@ -1,0 +1,54 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC6FF;
+    align-items: center;
+
+}
+#shoppingList{
+    text-align: center;
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    text-align: center;
+    padding-left:10px;
+    padding:10px;
+    border: 2px solid #9BF6FF;
+    background-color: #2918DC;
+    color: #FFFFFC;
+}
+.addItemForm{
+     display: inline-flex;
+     flex-direction: column; 
+    padding-top: 40px;
+    display: flex;
+    justify-content: center; 
+     align-items: center
+
+}
+#itemInput,#itemPriceInput{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #9BF6FF;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#addItemButton,.removeItemButton{
+    padding: 10px;
+    background-color: #2918DC;
+    border-color: #9BF6FF;
+    color: #FFFFFC;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#addItemButton:hover,#removeItemButton:hover{
+    background-color: #9BF6FF;
+    color: #2918DC;
+}

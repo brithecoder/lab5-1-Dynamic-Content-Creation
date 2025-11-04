@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>shoppingList</title>
+</head>
+<body>
+    <h1 class="header">Shopping List</h1>
+    <div>
+      <ul id="shoppingList"> 
+        <!-- List items will be added here -->
+      </ul>
+    </div>
+    <form class="addItemForm">
+      <input id="itemInput"type="text" name="item" placeholder="Add new item" required />
+      <input type="number" id="itemPriceInput" placeholder="Item Price" required />
+      <button id="addItemButton" type="submit">Add Item</button>
+      <div class="quantity-box">
+        <!-- <button class="minus-btn">-</button>
+        <input type="number" class="quantity-input" value="1" min="1" />
+        <button class="plus-btn">+</button> -->
+      </div>
+      <h3>Total: $<span id="total-price">0</span></h3>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
