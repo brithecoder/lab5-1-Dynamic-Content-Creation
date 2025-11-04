@@ -1,3 +1,8 @@
+## Shopping List
+
+This shopping list displays simple create and delete features 
+to access this page you can add the folder to your workspace then run the index.html file on live server. 
+
 ## Reflection Questions
 
 ### How did you dynamically create and append new elements to the DOM?
